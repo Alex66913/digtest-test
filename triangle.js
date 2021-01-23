@@ -1,12 +1,12 @@
 (function printTriangle(){
 
-var s, i, size = 10, tree = '', space = '';
+var s, t, size = 10, tree = '', space = '';
 
 for (s = 0; s < (size/2) - 1; s++){
   space += ' ';
 }
 
-for(i = 0; i< size/2; i++){
+for(t = 0; t < size/2; t++){
   tree += '* ';
 
   console.log(space + tree);
